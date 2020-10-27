@@ -20,7 +20,7 @@ const CartDropdown = ({cartItems}) => (
     </div>
 )
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
     cartItems: selectCartItems(state)
 })
 
